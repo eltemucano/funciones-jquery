@@ -45,7 +45,7 @@ $(document).ready(function () {
     $("#cont_1").append("<b> hacemos un append </b>");
   });
   $("#btn_Html").on("click", function () {
-    $("#cont_1").html("<b> Cambiando contenido </b>");
+    $("#cont_1").html("<b> Cambiando contenido con atributos </b>");
   });
   $("#btn_Attr").on("click", function () {
     let anuncio =
@@ -58,7 +58,7 @@ $(document).ready(function () {
     alert("y ahora el valor de este input es : " + $("#campo_input").val());
   });
   $("#btn_Text").on("click", function () {
-    $("#cont_1").text("Ahora cambiamos este texto");
+    $("#cont_1").text("Ahora cambiamos este texto sin atributos");
   });
   $("#btn_Reset").on("click",function(){
     location.reload();
