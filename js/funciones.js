@@ -28,6 +28,7 @@ $(document).ready(function () {
   $("#btn_fdOut").on("click", function () {
     $("#cont_1").fadeOut();
   });
+
   $("#btn_AddClass").on("click", function () {
     $("#cont_1").show();
     $("#cont_1").addClass("nueva");
